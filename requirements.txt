@@ -1,0 +1,8 @@
+# ── Dependencias ETL Normalizador ──────────────────────────────────────────
+
+# Firebase (opcional — solo si usas guardar_en_firebase())
+firebase-admin>=6.0
+
+# Acelerador fuzzy matching (opcional, mejora rendimiento del normalizador genérico)
+fuzzywuzzy>=0.18
+python-Levenshtein>=0.12
